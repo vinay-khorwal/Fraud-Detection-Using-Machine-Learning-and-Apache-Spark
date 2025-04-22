@@ -8,7 +8,7 @@ Link-https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detectio
 # Installation
 This project was developed and run on Kaggle Notebooks. No manual installation is required if you open and run it directly there.
 
-#Technologies & Libraries
+# Technologies & Libraries
 Apache Spark 3.3.0 (SparkSession, DataFrame API, Spark ML)
 Python 3.8+
 Scikit-Learn (SVM, model calibration, metrics)
