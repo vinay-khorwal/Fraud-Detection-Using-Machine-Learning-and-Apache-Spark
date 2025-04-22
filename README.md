@@ -1,5 +1,5 @@
 # Fraud-Detection-Using-Machine-Learning-and-Apache-Spark
-This Jupyter Notebook (unit-4-aiht.ipynb) demonstrates batch fraud detection on credit card transactions using Apache Spark ML alongside Scikit-Learn. It covers data loading, preprocessing, model training, evaluation, and visualization of results.
+This Jupyter Notebook (fraud_detection.ipynb) demonstrates batch fraud detection on credit card transactions using Apache Spark ML alongside Scikit-Learn. It covers data loading, preprocessing, model training, evaluation, and visualization of results.
 
 # Dataset
 We use the Kaggle Credit Card Fraud Detection dataset, which contains 284,807 transactions with only 492 fraud cases (0.17% of all transactions). Each record includes 30 features (V1–V28, Time, Amount) and a binary Class label (0 = legitimate, 1 = fraudulent).
