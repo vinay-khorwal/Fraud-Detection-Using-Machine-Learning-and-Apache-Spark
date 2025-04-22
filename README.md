@@ -10,10 +10,15 @@ This project was developed and run on Kaggle Notebooks. No manual installation i
 
 # Technologies & Libraries
 Apache Spark 3.3.0 (SparkSession, DataFrame API, Spark ML)
+
 Python 3.8+
+
 Scikit-Learn (SVM, model calibration, metrics)
+
 TensorFlow / Keras (for any deep learning extensions)
+
 NumPy & Pandas (data manipulation)
+
 Matplotlib (visualization)
 
 # Notebook Workflow
