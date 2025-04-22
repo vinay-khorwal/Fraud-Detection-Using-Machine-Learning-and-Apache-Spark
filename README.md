@@ -5,8 +5,22 @@ This Jupyter Notebook (fraud_detection.ipynb) demonstrates batch fraud detection
 We use the Kaggle Credit Card Fraud Detection dataset, which contains 284,807 transactions with only 492 fraud cases (0.17% of all transactions). Each record includes 30 features (V1–V28, Time, Amount) and a binary Class label (0 = legitimate, 1 = fraudulent).
 Link-https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023
 
-# Installation
-This project was developed and run on Kaggle Notebooks. No manual installation is required if you open and run it directly there.
+# Prerequisites & Installation
+
+1. Clone the repository
+
+2. Set up Python environment
+
+      - python3 -m venv venv
+      - source venv/bin/activate
+      - pip install --upgrade pip
+      - pip install -r requirements.txt
+
+3. Prepare data
+
+      - Place creditcard_2023.csv in the data/ directory (rename if needed to match the filename in the notebook).
+
+# Note - This project was developed and run on Kaggle Notebooks. No manual installation is required if you open and run it directly there.
 
 # Technologies & Libraries
 Apache Spark 3.3.0 (SparkSession, DataFrame API, Spark ML)
@@ -38,9 +52,9 @@ Matplotlib (visualization)
 
 6. Evaluation:
 
-  - Generate classification report (precision, recall, F1-score).
+   - Generate classification report (precision, recall, F1-score).
 
-  - Plot confusion matrix and ROC curve with AUC.
+   - Plot confusion matrix and ROC curve with AUC.
 
 7. Visualization: Display performance metrics and training curves.
 
